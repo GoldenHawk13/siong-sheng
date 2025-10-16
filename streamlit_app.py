@@ -178,7 +178,7 @@ def main():
                         quantity = st.number_input(
                             f"{item_name}\n${price:.2f}",
                             min_value=0,
-                            max_value=50,
+                            max_value=100,
                             value=0,
                             step=1,
                             key=f"{category}_{item_name}_2"
