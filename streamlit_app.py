@@ -1,7 +1,8 @@
 import streamlit as st
-
+from PIL import image
+siong_sheng_logo = Image.open("sheng siong logo.png")
 # Set page configuration
-st.set_page_config(page_title="Siong Sheng Supermarket", page_icon="🛒", layout="wide")
+st.set_page_config(page_title="Siong Sheng Supermarket", page_icon="sheng siong logo.png", layout="wide")
 
 # Product catalog with prices
 PRODUCTS = {
